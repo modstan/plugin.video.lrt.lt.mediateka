@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.lrt.lt.mediateka" version="0.1.0" name="LRT mediateka" provider-name="modestas stankus">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="mediateka.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<summary lang="en">Watch content from lrt.lt\/mediateka</summary>
+	<description lang="en">LRT.LT/MEDIATEKA content on xbmc</description>
+        <license>GPLv2</license>
+        <platform>all</platform>
+        <language>lt</language>
+        <email>stankus.modestas@gmail.com</email>
+	<source>https://github.com/modstan</source>
+    </extension>
+</addon>
+
